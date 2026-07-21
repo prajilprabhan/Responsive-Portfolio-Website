@@ -90,7 +90,7 @@ function Hero() {
           {/* Action Buttons & Socials */}
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="group flex items-center gap-2 bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-sm font-semibold px-5 py-3 rounded-xl shadow-lg shadow-blue-600/25 hover:shadow-blue-500/40 hover:-translate-y-0.5 transition-all duration-300"
             >
@@ -170,7 +170,7 @@ function Hero() {
               {/* Profile Image */}
               <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 relative">
                 <img
-                  src="/profile.JPG"
+                  src={`${import.meta.env.BASE_URL}profile.JPG`}
                   alt="Prajil P - Full Stack Developer & AI Enthusiast"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
