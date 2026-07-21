@@ -30,3 +30,33 @@ export function Linkedin({ size = 24, className = "" }) {
     </svg>
   );
 }
+
+export function LogoP({ size = 36, className = "" }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 512 512"
+      fill="none"
+      className={className}
+    >
+      <defs>
+        <linearGradient id="bgGradP" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#2563eb" />
+          <stop offset="50%" stopColor="#06b6d4" />
+          <stop offset="100%" stopColor="#4f46e5" />
+        </linearGradient>
+        <linearGradient id="textGradP" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#ffffff" />
+          <stop offset="100%" stopColor="#e0f2fe" />
+        </linearGradient>
+      </defs>
+      <rect x="32" y="32" width="448" height="448" rx="128" fill="url(#bgGradP)" />
+      <path
+        d="M160 120 H280 C340 120 380 155 380 215 C380 275 340 310 280 310 H220 V392 C220 403 211 412 200 412 H180 C169 412 160 403 160 392 V120 Z M220 180 V250 H275 C305 250 322 238 322 215 C322 192 305 180 275 180 H220 Z"
+        fill="url(#textGradP)"
+      />
+      <circle cx="370" cy="380" r="28" fill="#38bdf8" />
+    </svg>
+  );
+}

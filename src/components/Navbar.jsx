@@ -1,5 +1,6 @@
-import { Menu, X, Download, Sparkles } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 import { useState, useEffect } from "react";
+import { LogoP } from "./Icons";
 
 const NAV_LINKS = [
   { name: "Home", href: "#hero", id: "hero" },
@@ -50,13 +51,11 @@ function Navbar() {
         {/* Logo */}
         <a
           href="#hero"
-          className="group flex items-center gap-2 text-2xl font-extrabold tracking-tight text-white hover:text-blue-400 transition duration-300"
+          className="group flex items-center gap-2.5 text-2xl font-extrabold tracking-tight text-white hover:text-blue-400 transition duration-300"
         >
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 via-cyan-500 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-blue-500/30 group-hover:scale-105 transition-transform">
-            <Sparkles size={18} className="animate-pulse" />
-          </div>
-          <span className="font-outfit">
-            Prajil<span className="text-blue-400">.</span>
+          <LogoP size={36} className="group-hover:scale-105 transition-transform shrink-0" />
+          <span className="font-outfit tracking-tight">
+            Prajil<span className="text-blue-400"> P</span>
           </span>
         </a>
 

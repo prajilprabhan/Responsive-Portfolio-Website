@@ -2,9 +2,8 @@ import {
   ArrowUp,
   Mail,
   Heart,
-  Sparkles,
 } from "lucide-react";
-import { Github, Linkedin } from "./Icons";
+import { Github, Linkedin, LogoP } from "./Icons";
 
 function Footer() {
   const year = new Date().getFullYear();
@@ -25,11 +24,9 @@ function Footer() {
 
           {/* Brand & Bio (5 cols) */}
           <article className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-md shadow-blue-500/30">
-                <Sparkles size={16} />
-              </div>
-              <h2 className="text-2xl font-bold text-white font-outfit">
+            <div className="flex items-center gap-2.5">
+              <LogoP size={32} className="shrink-0" />
+              <h2 className="text-2xl font-bold text-white font-outfit tracking-tight">
                 Prajil<span className="text-blue-400"> P</span>
               </h2>
             </div>
