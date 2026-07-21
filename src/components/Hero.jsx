@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
+import { Mail, Download, ArrowDown } from "lucide-react";
+import { Github, Linkedin } from "./Icons";
 
 function Hero() {
   return (
