@@ -95,7 +95,7 @@ function Contact() {
                         href="mailto:prajilprabhan924@gmail.com"
                         className="text-slate-200 font-medium hover:text-cyan-400 transition text-sm truncate block"
                       >
-                        prajilprabhan924@gmail.com
+                        prajilprabhan26@gmail.com
                       </a>
                     </div>
                   </div>
@@ -120,7 +120,7 @@ function Contact() {
                       href="tel:+919999999999"
                       className="text-slate-200 font-medium hover:text-cyan-400 transition text-sm"
                     >
-                      +91 99999 99999
+                      +91 7902210559
                     </a>
                   </div>
                 </div>

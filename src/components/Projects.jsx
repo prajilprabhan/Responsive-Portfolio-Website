@@ -2,7 +2,6 @@ import { useState } from "react";
 import {
   ShieldCheck,
   HeartHandshake,
-  CloudSun,
   Sparkles,
   FolderGit2,
   X,
@@ -60,23 +59,32 @@ function Projects() {
       demo: "#",
     },
     {
-      id: "weather-dashboard",
-      title: "Weather Dashboard",
-      category: "Full Stack",
-      badge: "Web Application",
-      icon: <CloudSun size={44} className="text-amber-400" />,
-      tagline: "Real-Time Weather Metrics & Forecast Visualizer",
-      description:
-        "Sleek and responsive weather intelligence application fetching live meteorological metrics, 7-day forecasts, UV indices, and wind speed maps via external REST APIs with dynamic background theme transitions.",
-      technologies: ["React", "REST APIs", "Tailwind CSS", "JavaScript ES6+", "Vite"],
-      highlights: [
-        "Geolocation weather auto-detection",
-        "Dynamic UI gradient themes based on weather state",
-        "Detailed hourly & weekly forecast visualization",
-      ],
-      github: "https://github.com/prajilprabhan/weather-app",
-      demo: "#",
-    },
+  id: "flyhigh",
+  title: "FlyHigh",
+  category: "Full Stack",
+  badge: "Django Web Application",
+  icon: <HeartHandshake size={44} className="text-rose-400" />,
+  tagline: "Empowering Communities Through Digital Charity Management",
+  description:
+    "A comprehensive charity management platform built with Django that streamlines donations, volunteer coordination, campaign management, and beneficiary support. The application provides an intuitive interface for organizations to efficiently manage fundraising initiatives and community outreach while ensuring secure user authentication and organized data management.",
+  technologies: [
+    "Django",
+    "Python",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "SQLite",
+  ],
+  highlights: [
+    "Secure user authentication and role-based access",
+    "Donation and fundraising campaign management",
+    "Volunteer registration and activity tracking",
+    "Responsive dashboard for administrators and users",
+  ],
+  github: "https://github.com/prajilprabhan/flyhigh",
+  demo: "#",
+},
   ];
 
   const filteredProjects =

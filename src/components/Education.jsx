@@ -13,8 +13,8 @@ function Education() {
       highlights: ["React & FastAPI", "Machine Learning & AI", "Database Systems"],
     },
     {
-      degree: "Bachelor's Degree in Computer Applications / Science",
-      institution: "Mahatma Gandhi University Affiliated College",
+      degree: "Bachelor's in Computer Applications ",
+      institution: "College of Applied Science Mavelikkara ,IHRD",
       location: "Kerala, India",
       year: "2022 - 2025",
       status: "Completed",
@@ -24,7 +24,7 @@ function Education() {
     },
     {
       degree: "Higher Secondary Education (Plus Two)",
-      institution: "Computer Science Stream",
+      institution: "MSMHSS (Computer Science Stream)",
       location: "Kerala, India",
       year: "2020 - 2022",
       status: "Completed",
